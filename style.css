@@ -1,8 +1,11 @@
-.flex-row{
-    display: flex;
-    justify-content: space-between;
-    background-color: #F8F0EA;
-    font-family: 'Noto Serif Display', serif;
+footer{
+    padding: 10px;
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+#copy{
+text-align: right;
 }
 
 
