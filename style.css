@@ -1,3 +1,7 @@
+body{
+   background-color: #F9F9F9;
+}
+
 .col-12{
 background-color: #C7D9BC;
 }
@@ -6,11 +10,11 @@ footer{
     padding: 10px;
     padding-left: 5%;
     padding-top: 3%;
+    background-color: #C7D9BC;
 }
 
 #copy{
-text-align: right;
-background-color: #C7D9BC;
+text-align: left;
 }
 
 
