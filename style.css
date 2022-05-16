@@ -1,0 +1,9 @@
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F8F0EA;
+    font-family: 'Noto Serif Display', serif;
+}
+
+
+
