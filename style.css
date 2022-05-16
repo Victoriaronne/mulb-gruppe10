@@ -1,3 +1,7 @@
+.col-12{
+background-color: #C7D9BC;
+}
+
 footer{
     padding: 10px;
     padding-left: 5%;
@@ -6,6 +10,7 @@ footer{
 
 #copy{
 text-align: right;
+background-color: #C7D9BC;
 }
 
 
