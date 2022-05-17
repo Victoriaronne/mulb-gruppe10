@@ -3,6 +3,7 @@
 body{
     background-color: #F9F9F9;
    font-family: playfair display;
+   /* flex: auto; */
 }
 .contact{
     display: flex;
@@ -23,7 +24,7 @@ body{
     padding-top: 10%;
 }
 
-.formular{
+.form{
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -46,6 +47,11 @@ body{
     padding-bottom: 7%;
 }
 
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
 /* desktop */
 
 @media screen and (min-width: 992px) {
@@ -61,6 +67,15 @@ body{
         width: 30%; 
         padding-top: 19%;
     }
+
+    /* .footer{
+        flex-direction: row;
+    }
+
+    #copy{
+        flex: 1;
+        align-self: flex-end;
+    } */
 }
 
 /* Kontakt slut */

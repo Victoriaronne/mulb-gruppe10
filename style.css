@@ -1,6 +1,7 @@
 body{
    background-color: #F9F9F9;
    font-family: playfair display;
+   flex: auto;
 }
 
 .col-12{
@@ -12,6 +13,9 @@ footer{
     padding-left: 5%;
     padding-top: 3%;
     background-color: #C7D9BC;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #copy{
@@ -198,6 +202,14 @@ text-align: left;
             margin-bottom: 0%;
             
          }
+         .footer{
+            flex-direction: row;
+        }
+    
+        #copy{
+            flex: 1;
+            align-self: flex-end;
+        }
 
     /* Tutorial slut - laptop*/
 
