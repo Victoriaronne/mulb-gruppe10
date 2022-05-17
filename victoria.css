@@ -1,5 +1,10 @@
 /* Kontakt start */
 
+body{
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -42,6 +47,19 @@
     padding-bottom: 7%;
 }
 
+.icon-scale {
+    transform: scale(1.5);
+    padding: 6px;
+}
+
+.box-2 p{
+    font-size:medium;
+}
+
+footer{
+    min-height: 22%;
+}
+
 /* desktop */
 
 @media screen and (min-width: 992px) {
@@ -49,14 +67,17 @@
         display: flex;
         flex-wrap: wrap;
     }
-
     .box-1 {
         width: 70%;
     }
 
-    .box-3 {
+    .box-2 {
         width: 30%;
         padding-top: 19%;
+    }
+
+    .box-2 p{
+        font-size: large;
     }
 }
 
