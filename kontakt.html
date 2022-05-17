@@ -31,7 +31,7 @@
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav"><a href="#menu"></a>
+        <div class="collapse navbar-collapse menu" id="navbarNav"><a href="#menu"></a>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html">Forside</a>
@@ -52,25 +52,25 @@
   </div>
   <div class="contact-container container col">
     <div class="box-1">
-      <form action="">
+      <form id="contact-form" action="">
         <div class="flex-container">
           <div class="contact">
             <h1 class="contact-h1">Kontakt</h1> <br>
             <div class="form">
               <label for="navn">Navn*</label>
-              <input type="name" id="name" placeholder="F.eks. Sofie Jensen"> <br>
+              <input required class="need-validation" type="text" id="name" name="name" placeholder="F.eks. Sofie Jensen"> <br>
             </div>
             <div class="form">
               <label for="email">E-mail*</label>
-              <input type="email" name="email" id="email" placeholder="F.eks.cph@cphbusiness.dk"> <br>
+              <input required class="need-validation" type="email" name="email" id="email" placeholder="F.eks.cph@cphbusiness.dk"> <br>
             </div>
             <div class="form">
               <label for="message">Besked*</label>
-              <textarea name="message" id="message" cols="30" rows="5"
+              <textarea required class="need-validation" name="message" id="message" cols="30" rows="5"
                 placeholder="F.eks. ønsker til flere videoer"></textarea> <br>
             </div>
             <div class="contact-button">
-              <button type="button" onclick="sendEmail()">Send</button>
+              <button type="submit" onclick="sendEmail()">Send</button>
             </div>
           </div>
         </div>

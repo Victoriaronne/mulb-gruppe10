@@ -1,20 +1,10 @@
-// var fields = {};
-
-// document.addEventListener("DOMcontentloaded",function(){
-//     fields.name = document.getElementById('name')
-//     fields.email = document.getElementById('email')
-//     fields.message = document.getElementById('message')
-// }
-
-// )
-
 // console.log(fields);
 
 // function isNotEmpty(value){
 //     if (value == null || typeof value == 'undefined') return false;
 
 //     return (value.length >0);
-// }
+// 
 
 const userID = "ufO0_wig4VkETaUTU"
 const serviceID = "service_xb1o8hg"
@@ -39,3 +29,21 @@ function sendEmail() {
         console.log(error)
     }
 }
+
+document
+.getElementById("contact-form")
+.addEventListener("submit, validateForm");
+const templaeParams = {};
+
+    function validateForm(event){
+        event.preventDefault();
+        console.log(submitted);
+        const elements = document.getElementsByClassName("need-validation");
+        console.log(elements);
+        for (let element of elements)
+        if (element.type == "text" || element.type == "textarea"){
+            textValidation(element);
+        } else if (element.type == "email"){
+            emailValidation(element);
+        }
+    }

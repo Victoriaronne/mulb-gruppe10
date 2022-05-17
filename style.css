@@ -4,6 +4,12 @@ body{
    flex: auto;
 }
 
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: playfair display;
+}
+
 .col-12{
 background-color: #C7D9BC;
 }

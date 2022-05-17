@@ -1,64 +1,61 @@
 /* Kontakt start */
 
-body{
-    background-color: #F9F9F9;
-   font-family: playfair display;
-}
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.contact input{
+.contact input {
     border-radius: 10px;
 }
 
-.contact textarea{
+.contact textarea {
     border-radius: 10px;
 }
 
-.contact-h1{
+.contact-h1 {
     padding-top: 10%;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     width: 50%;
 
 }
 
-.contact button{
+.contact button {
     text-decoration: none;
     border-radius: 10px;
     margin-bottom: 50%;
     background-color: #8FB379;
 }
 
-.contact-information{
+.contact-information {
     display: flex;
-   justify-content:center;
+    justify-content: center;
 }
 
-.padding-bottom{
+.padding-bottom {
     padding-bottom: 7%;
 }
 
 /* desktop */
 
 @media screen and (min-width: 992px) {
-    .contact-container{
+    .contact-container {
         display: flex;
         flex-wrap: wrap;
     }
-    .box-1{
+
+    .box-1 {
         width: 70%;
     }
 
-    .box-3{
-        width: 30%; 
+    .box-3 {
+        width: 30%;
         padding-top: 19%;
     }
 }
