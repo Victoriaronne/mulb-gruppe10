@@ -25,7 +25,7 @@
   <div class="col-12">
     <nav class="navbar navbar-light navbar-1 white navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html"> <img id="log" src="/images/logo.png" alt="logo" width="130"
+        <a class="navbar-brand" href="/index.html"> <img id="log" src="/images/logo.final1.png" alt="logo" width="130"
             height="100"><span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,11 +58,11 @@
             <h1 class="contact-h1">Kontakt</h1> <br>
             <div class="form">
               <label for="navn">Navn*</label>
-              <input type="text" id="navn" placeholder="F.eks. Sofie Jensen"> <br>
+              <input type="name" id="name" placeholder="F.eks. Sofie Jensen"> <br>
             </div>
             <div class="form">
               <label for="email">E-mail*</label>
-              <input type="text" name="email" id="email" placeholder="F.eks.cph@cphbusiness.dk"> <br>
+              <input type="email" name="email" id="email" placeholder="F.eks.cph@cphbusiness.dk"> <br>
             </div>
             <div class="form">
               <label for="message">Besked*</label>
@@ -70,7 +70,7 @@
                 placeholder="F.eks. ønsker til flere videoer"></textarea> <br>
             </div>
             <div class="contact-button">
-              <button>Send</button>
+              <button type="button" onclick="sendEmail()">Send</button>
             </div>
           </div>
         </div>
@@ -102,9 +102,13 @@
 
   </footer>
 
-
-
-
+  <script src="kontakt.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("ufO0_wig4VkETaUTU");
+    })();
+  </script>
 
 </body>
 
