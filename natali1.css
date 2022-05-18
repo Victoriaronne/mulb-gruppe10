@@ -15,7 +15,7 @@ body{
  }
  
  #copy{
- text-align: left;
+ text-align: left; 
  }
 
  /* Base start */
@@ -192,10 +192,35 @@ body{
  }
 
  /* Contour */
-
  #h1contour{ 
     text-align: center;
     margin-top: 3%;
+}
+
+.tilbageknap1{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.tilbageknap2{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
 }
 
 .contourvideo{
@@ -230,7 +255,14 @@ body{
   }
 
   @media screen and (min-width: 768px){
-  
+    .tilbageknap1{
+        padding: 1% 4%;
+    }
+
+    .tilbageknap2{
+        padding: 1% 4%;
+    }
+
    #contourtekstet{
        margin-bottom: 10%;
    }
@@ -239,15 +271,33 @@ body{
        margin-bottom: 5%;
    }
 
-
    #videotre{
     height: 350px;
     width: 90%;   
   }
-   
-  }
 
-  @media screen and (min-width: 997px){
+   
+
+}
+
+@media screen and (min-width: 997px){
+    .box{  
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .tilbageknap1{
+            padding: 1% 3%;
+            font-size: 17px;
+        }
+    
+        .tilbageknap2{
+            padding: 1% 3%;
+            font-size: 17px;
+        }
+
+    
+
     #contourtekstet{
         margin-bottom: 5%;
     }
@@ -268,13 +318,280 @@ body{
         width: 500px;
     }
 
+
+    #contourtekstto   {order: 1;}
+    #videoetre  {order: 2;} 
+ }
+
+ /* Bryn */
+ #h1bryn{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tilbageknap1{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.tilbageknap2{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.brynvideo{
+    margin-top: 3%;
+  }
+
+  #bryntekstet{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+
+  }
+
+  .h4bryn{
+      
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#videofire{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #bryntekstto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+  }
+
+  @media screen and (min-width: 768px){
+    .tilbageknap1{
+        padding: 1% 4%;
+    }
+
+    .tilbageknap2{
+        padding: 1% 4%;
+    }
+
+   #bryntekstet{
+       margin-bottom: 10%;
+   }
+
+   #bryntekstto{
+       margin-bottom: 5%;
+   }
+
+   #videofire{
+    height: 350px;
+    width: 90%;   
+  }
+
    
 
+}
 
-    #contourtekstto   {order: 2;}
-    #videotre  {order: 2;}
+@media screen and (min-width: 997px){
+    .box{  
+        display: flex;
+        justify-content: space-between;
+        }
 
+        .tilbageknap1{
+            padding: 1% 3%;
+            font-size: 17px;
+        }
+    
+        .tilbageknap2{
+            padding: 1% 3%;
+            font-size: 17px;
+        }
+
+    
+
+    #bryntekstet{
+        margin-bottom: 5%;
+    }
+
+    #bryntekstto{
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+
+    .h4bryn{
+        margin-top: 5%;
+    }
+
+    #videofire{
+        height: 315px;
+        width: 500px;
+    }
+
+
+    #bryntekstto   {order: 1;}
+    #videoefire  {order: 2;} 
  }
+
+ /* Øjenskygge */
+ #h1oejenskygge{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tilbageknap1{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.tilbageknap2{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.oejenskyggevideo{
+    margin-top: 3%;
+  }
+
+  #oejenskyggetekstet{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+
+  }
+
+  .h4oejenskygge{
+      
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#videofem{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #oejenskyggetekstto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+  }
+
+  @media screen and (min-width: 768px){
+    .tilbageknap1{
+        padding: 1% 4%;
+    }
+
+    .tilbageknap2{
+        padding: 1% 4%;
+    }
+
+   #oejenskyggetekstet{
+       margin-bottom: 10%;
+   }
+
+   #oejenskyggetekstto{
+       margin-bottom: 5%;
+   }
+
+   #videofem{
+    height: 350px;
+    width: 90%;   
+  }
+
+   
+
+}
+
+@media screen and (min-width: 997px){
+    .box{  
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .tilbageknap1{
+            padding: 1% 3%;
+            font-size: 17px;
+        }
+    
+        .tilbageknap2{
+            padding: 1% 3%;
+            font-size: 17px;
+        }
+
+    
+
+    #oejenskyggetekstet{
+        margin-bottom: 5%;
+    }
+
+    #oejenskyggetekstto{
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+
+    .h4oejenskygge{
+        margin-top: 5%;
+    }
+
+    #videofem{
+        height: 315px;
+        width: 500px;
+    }
+
+
+    #oejenskyggetekstto   {order: 1;}
+    #videoefem  {order: 2;} 
+ }
+
+
+
+
+
+ 
 
    
 

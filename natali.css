@@ -19,7 +19,7 @@ body{
  }
 
  /* Tutorial start */
- h1{ 
+ #h1tutorial{ 
      text-align: center;
      margin-top: 3%;
  }
@@ -109,7 +109,7 @@ body{
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     cursor: pointer;
  }
 

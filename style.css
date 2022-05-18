@@ -30,7 +30,7 @@ footer {
 }
 
 /* Tutorial start */
-h1 {
+#h1tutorial {
     text-align: center;
     margin-top: 3%;
 }
@@ -120,7 +120,7 @@ h1 {
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     cursor: pointer;
 }
 
@@ -177,7 +177,7 @@ h1 {
 
 /* Kontakt slut */
 
-/* Base start */
+/* Base  start */
 #h1base {
     text-align: center;
     margin-top: 3%;
@@ -258,45 +258,201 @@ h1 {
     margin-right: 5%;
 }
 
-/* Base slut  */
+/* Base  slut  */
 
 /* Contour start */
-#h1contour{ 
+#h1contour {
     text-align: center;
     margin-top: 3%;
 }
 
-.contourvideo{
+.tilbageknap1 {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.tilbageknap2 {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.contourvideo {
+    margin-top: 3%;
+}
+
+#contourtekstet {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+
+}
+
+.h4contour {
+
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#videotre {
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#contourtekstto {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+}
+
+/* Contour slut  */
+
+/* Bryn start */
+#h1bryn{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tilbageknap1{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.tilbageknap2{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.brynvideo{
     margin-top: 3%;
   }
 
-  #contourtekstet{
+  #bryntekstet{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 15%;
 
   }
 
-  .h4contour{
+  .h4bryn{
       
     margin-left: 5%;
     margin-top: 10%;
 }
 
-#videotre{
+#videofire{
     height: 200px;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;    
   }
 
-  #contourtekstto{
+  #bryntekstto{
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 1%;
 
   }
-/* Contour slut */
+/* Bryn slut */
+
+/* Øjenskygge start */
+#h1oejenskygge{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tilbageknap1{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.tilbageknap2{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.oejenskyggevideo{
+    margin-top: 3%;
+  }
+
+  #oejenskyggetekstet{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+
+  }
+
+  .h4oejenskygge{
+      
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#videofem{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #oejenskyggetekstto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+  }
+/* Øjenskygge slut */
+
 
 @media screen and (min-width: 768px) {
 
@@ -326,54 +482,109 @@ h1 {
 
 
 
-/* Base start - tablet */
-.tilbageknap1 {
-    padding: 1% 4%;
-}
+    /* Base  start - tablet */
+    .tilbageknap1 {
+        padding: 1% 4%;
+    }
 
-.tilbageknap2 {
-    padding: 1% 4%;
-}
+    .tilbageknap2 {
+        padding: 1% 4%;
+    }
 
-#basetekstet {
-    margin-bottom: 10%;
-}
+    #basetekstet {
+        margin-bottom: 10%;
+    }
 
-#basetekstto {
-    margin-bottom: 10%;
-}
+    #basetekstto {
+        margin-bottom: 10%;
+    }
 
-#baseteksttre {
-    margin-bottom: 5%;
-}
+    #baseteksttre {
+        margin-bottom: 5%;
+    }
 
-#videoet {
+    #videoet {
+        height: 350px;
+        width: 90%;
+    }
+
+    #videoto {
+        height: 350px;
+        width: 90%;
+    }
+
+    /* Base  slut - tablet */
+
+    /* Contour start - tablet */
+    .tilbageknap1 {
+        padding: 1% 4%;
+    }
+
+    .tilbageknap2 {
+        padding: 1% 4%;
+    }
+
+    #contourtekstet {
+        margin-bottom: 10%;
+    }
+
+    #contourtekstto {
+        margin-bottom: 5%;
+    }
+
+    #videotre {
+        height: 350px;
+        width: 90%;
+    }
+
+    /* Contour slut - tablet */
+
+    /* Bryn start - tablet */
+    .tilbageknap1{
+        padding: 1% 4%;
+    }
+
+    .tilbageknap2{
+        padding: 1% 4%;
+    }
+
+   #bryntekstet{
+       margin-bottom: 10%;
+   }
+
+   #bryntekstto{
+       margin-bottom: 5%;
+   }
+
+   #videofire{
     height: 350px;
-    width: 90%;
-}
+    width: 90%;   
+  }
+    /* Bryn slut - tablet  */
 
-#videoto {
+    /* Øjenskygge start - tablet */
+    .tilbageknap1{
+        padding: 1% 4%;
+    }
+
+    .tilbageknap2{
+        padding: 1% 4%;
+    }
+
+   #oejenskyggetekstet{
+       margin-bottom: 10%;
+   }
+
+   #oejenskyggetekstto{
+       margin-bottom: 5%;
+   }
+
+   #videofem{
     height: 350px;
-    width: 90%;
-}
-/* Base slut - tablet */
+    width: 90%;   
+  }
+    /* Øjenskygge slut - tablet */
 
-/*Contour start - tablet  */
-#contourtekstet{
-    margin-bottom: 10%;
-}
-
-#contourtekstto{
-    margin-bottom: 5%;
-}
-
-
-#videotre{
- height: 350px;
- width: 90%;   
-}
-
-/* Contour slut - tablet */
 }
 
 
@@ -420,6 +631,7 @@ h1 {
     .brynknap {
         font-size: x-large;
         padding: 2% 9.6%;
+        margin-bottom: 3%;
     }
 
     #oejenskygge {
@@ -432,7 +644,7 @@ h1 {
     .oejenskyggeknap {
         font-size: x-large;
         padding: 2% 3.9%;
-        margin-bottom: 0%;
+        margin-bottom: 3%;
 
     }
 
@@ -471,9 +683,79 @@ h1 {
     }
 
 
-/* Kontakt slut - laptop */
+    /* Kontakt slut - laptop */
 
-/* Base start - laptop */
+    /* Base  start - laptop */
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tilbageknap1 {
+        padding: 1% 3%;
+        font-size: 17px;
+    }
+
+    .tilbageknap2 {
+        padding: 1% 3%;
+        font-size: 17px;
+    }
+
+
+
+    #basetekstet {
+        margin-bottom: 5%;
+    }
+
+    #basetekstto {
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    #baseteksttre {
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+
+    .h4base {
+        margin-top: 5%;
+    }
+
+    #videoet {
+        height: 315px;
+        width: 500px;
+    }
+
+    #videoto {
+        height: 315px;
+        width: 500px;
+    }
+
+
+    #basetekstto {
+        order: 4;
+    }
+
+    #videoet {
+        order: 3;
+    }
+
+    #videoto {
+        order: 2;
+    }
+
+    #baseteksttre {
+        order: 1;
+    }
+
+    /* Base slut - laptop */
+
+
+
+/* Contour start - laptop */
 .box {
     display: flex;
     justify-content: space-between;
@@ -491,82 +773,120 @@ h1 {
 
 
 
-#basetekstet {
+#contourtekstet {
     margin-bottom: 5%;
 }
 
-#basetekstto {
-    max-width: 40%;
-    margin-bottom: 5%;
-    margin-top: 0;
-}
-
-#baseteksttre {
+#contourtekstto {
     max-width: 40%;
     margin-bottom: 5%;
     margin-top: 0;
 }
 
 
-.h4base {
+.h4contour {
     margin-top: 5%;
 }
 
-#videoet {
-    height: 315px;
-    width: 500px;
-}
-
-#videoto {
+#videotre {
     height: 315px;
     width: 500px;
 }
 
 
-#basetekstto {
-    order: 4;
+#contourtekstto {
+    order: 1;
 }
 
-#videoet {
-    order: 3;
-}
-
-#videoto {
+#videoetre {
     order: 2;
 }
 
-#baseteksttre {
-    order: 1;
-}
-/* Base slut - laptop */
+/* Contour slut - laptop */
 
-/* Contour start - laptop */
-#contourtekstet{
+/* Bryn start - laptop */
+.box{  
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .tilbageknap1{
+        padding: 1% 3%;
+        font-size: 17px;
+    }
+
+    .tilbageknap2{
+        padding: 1% 3%;
+        font-size: 17px;
+    }
+
+
+
+#bryntekstet{
     margin-bottom: 5%;
 }
 
-#contourtekstto{
+#bryntekstto{
     max-width: 40%;
     margin-bottom: 5%;
     margin-top: 0;
 }
 
 
-.h4contour{
+.h4bryn{
     margin-top: 5%;
 }
 
-#videotre{
+#videofire{
     height: 315px;
     width: 500px;
 }
 
 
+#bryntekstto   {order: 1;}
+#videoefire  {order: 2;} 
+/* Bryn slut - laptop  */
+
+/* Øjenskygge start - laptop */
+.box{  
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .tilbageknap1{
+        padding: 1% 3%;
+        font-size: 17px;
+    }
+
+    .tilbageknap2{
+        padding: 1% 3%;
+        font-size: 17px;
+    }
 
 
-#contourtekstto   {order: 2;}
-#videotre  {order: 2;}
-/*Contour slut - laptop  */
 
+#oejenskyggetekstet{
+    margin-bottom: 5%;
 }
 
+#oejenskyggetekstto{
+    max-width: 40%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+
+.h4oejenskygge{
+    margin-top: 5%;
+}
+
+#videofem{
+    height: 315px;
+    width: 500px;
+}
+
+
+#oejenskyggetekstto   {order: 1;}
+#videoefem  {order: 2;} 
+/* Øjenskygge slut - laptop */
+}
