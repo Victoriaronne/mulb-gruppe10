@@ -130,9 +130,10 @@
 
     .two-pictures{
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         height: 100%;
         width:  100%;
+        transform: scale(1.5);
         
     }
 
