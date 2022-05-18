@@ -24,45 +24,127 @@ body{
     margin-top: 3%;
 }
 
+.tilbageknap{
+    font-family: playfair display; 
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 10px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
 .basevideo{
     margin-top: 3%;
   }
 
   h4{
-      display: block;
+      
       margin-left: 5%;
+      margin-top: 10%;
   }
 
 
 
-  .basetekst{
+  #basetekstet{
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-top: 1%;
+    margin-bottom: 15%;
 
   }
 
-  .base{
-    height: 90%;
+  #basetekstto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+
+  }
+
+  #baseteksttre{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+
+  }
+
+  #videoet{
+    height: 100%;
     width: 90%;
-    display: block;
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #videoto{
+    height: 100%;
+    width: 90%;
+    max-width: 300px;
     margin-left: 5%;
     margin-right: 5%;
-}
+  }
 
 @media screen and (min-width: 768px){
+   #basetekstet{
+       margin-bottom: 10%;
+   }
+
+   #basetekstto{
+       margin-bottom: 10%;
+   }
+
+   #baseteksttre{
+        margin-bottom: 5%;
+   }
 
 }
 
 @media screen and (min-width: 997px){
     .box{  
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         }
-    .base{
-        height: 70%;
-        width: 30%;
+
+    #basetekstet{
+        margin-bottom: 5%;
     }
+
+    #basetekstto{
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    #baseteksttre{
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+    h4{
+        margin-top: 5%;
+    }
+
+    #videoet{
+        max-width: 290px;
+    }
+
+    #videoto{
+        max-width: 290px;
+    }
+
+    #basetekstet   {order: 1;}
+    #videoet  {order: 2;}
+    #videoto {order: 3;}
+    #basetekstto  {order: 4;}
+
+      
+    
+
+   
+
+   
+
+
 
     
     
