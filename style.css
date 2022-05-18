@@ -2,6 +2,7 @@ body{
    background-color: #F9F9F9;
    font-family: playfair display;
    flex: auto;
+   height: 100vh;
 }
 
 .menu {
@@ -126,10 +127,6 @@ text-align: left;
 /* Tutorial slut */
 
 /* Kontakt start */
-body{
-    height: 100vh;
-    background-color: #F9F9F9;
-}
 
 .contact {
     display: flex;

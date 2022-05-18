@@ -82,3 +82,43 @@
 } */
 
 /* Kontakt slut */
+
+/* anastasia start */
+
+.products {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+    .products {
+        display: flex;
+
+        flex-direction: row;
+    }
+
+    .row {
+        width: 33%;
+    }
+}
+
+/* .product-1 .p {
+        width: 70%;
+    }
+
+    .product-2 {
+        width: 30%;
+        padding-top: 19%;
+    }
+
+    .footer{
+        padding-bottom:7%;
+    }
+} */
