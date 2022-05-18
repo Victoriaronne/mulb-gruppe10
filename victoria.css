@@ -1,6 +1,6 @@
 /* Kontakt start */
 
-body{
+/* body{
     height: 100vh;
     background-color: #F9F9F9;
 }
@@ -54,11 +54,11 @@ body{
 
 .box-2 p{
     font-size:medium;
-}
+} */
 
 /* desktop */
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .contact-container {
         display: flex;
         flex-wrap: wrap;
@@ -79,6 +79,6 @@ body{
     .footer{
         padding-bottom:7%;
     }
-}
+} */
 
 /* Kontakt slut */
