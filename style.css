@@ -143,10 +143,6 @@ text-align: left;
     border-radius: 10px;
 }
 
-.contact-h1 {
-    padding-top: 10%;
-}
-
 .form {
     display: flex;
     flex-direction: column;
