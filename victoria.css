@@ -56,10 +56,6 @@ body{
     font-size:medium;
 }
 
-footer{
-    min-height: 22%;
-}
-
 /* desktop */
 
 @media screen and (min-width: 992px) {
@@ -78,6 +74,10 @@ footer{
 
     .box-2 p{
         font-size: large;
+    }
+
+    .footer{
+        padding-bottom:7%;
     }
 }
 
