@@ -260,6 +260,44 @@ h1 {
 
 /* Base slut  */
 
+/* Contour start */
+#h1contour{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.contourvideo{
+    margin-top: 3%;
+  }
+
+  #contourtekstet{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+
+  }
+
+  .h4contour{
+      
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+#videotre{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;    
+  }
+
+  #contourtekstto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+  }
+/* Contour slut */
+
 @media screen and (min-width: 768px) {
 
     /* Tutorial start - tablet */
@@ -318,9 +356,29 @@ h1 {
     height: 350px;
     width: 90%;
 }
+/* Base slut - tablet */
+
+/*Contour start - tablet  */
+#contourtekstet{
+    margin-bottom: 10%;
 }
 
-/* Base slut - tablet */
+#contourtekstto{
+    margin-bottom: 5%;
+}
+
+
+#videotre{
+ height: 350px;
+ width: 90%;   
+}
+
+/* Contour slut - tablet */
+}
+
+
+
+
 
 @media screen and (min-width: 992px) {
     #copy {
@@ -480,7 +538,35 @@ h1 {
 #baseteksttre {
     order: 1;
 }
+/* Base slut - laptop */
+
+/* Contour start - laptop */
+#contourtekstet{
+    margin-bottom: 5%;
+}
+
+#contourtekstto{
+    max-width: 40%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+
+.h4contour{
+    margin-top: 5%;
+}
+
+#videotre{
+    height: 315px;
+    width: 500px;
+}
+
+
+
+
+#contourtekstto   {order: 2;}
+#videotre  {order: 2;}
+/*Contour slut - laptop  */
 
 }
 
-/* Base slut - laptop */
