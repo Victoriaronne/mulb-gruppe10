@@ -1,8 +1,8 @@
-body{
-   background-color: #F9F9F9;
-   font-family: playfair display;
-   flex: auto;
-   height: 100vh;
+body {
+    background-color: #F9F9F9;
+    font-family: playfair display;
+    flex: auto;
+    height: 100vh;
 }
 
 .menu {
@@ -11,35 +11,35 @@ body{
     font-family: playfair display;
 }
 
-.col-12{
-background-color: #C7D9BC;
+.col-12 {
+    background-color: #C7D9BC;
 }
 
-footer{
+footer {
     padding: 10px;
     padding-left: 5%;
     padding-top: 3%;
     background-color: #C7D9BC;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-#copy{
-text-align: left;
+#copy {
+    text-align: left;
 }
 
- /* Tutorial start */
- h1{ 
+/* Tutorial start */
+h1 {
     text-align: center;
     margin-top: 3%;
 }
 
-.tutorialbilleder{
-  margin-top: 3%;
+.tutorialbilleder {
+    margin-top: 3%;
 }
 
-#basebillede{
+#basebillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -48,7 +48,7 @@ text-align: left;
     margin-top: 10%;
 }
 
-#contourbillede{
+#contourbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -57,7 +57,7 @@ text-align: left;
     margin-top: 10%;
 }
 
-#brynbillede{
+#brynbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -66,7 +66,7 @@ text-align: left;
     margin-top: 10%;
 }
 
-#oejenskygge{
+#oejenskygge {
     height: 50%;
     width: 50%;
     display: block;
@@ -75,53 +75,53 @@ text-align: left;
     margin-top: 10%;
 }
 
-.baseknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 6%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+.baseknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 6%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.contourknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 4%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+.contourknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.brynknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 9%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+.brynknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 9%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.oejenskyggeknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 3%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 10%;
-   cursor: pointer;
+.oejenskyggeknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 3%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    cursor: pointer;
 }
 
 /* Tutorial slut */
@@ -171,109 +171,230 @@ text-align: left;
     padding: 6px;
 }
 
-.box-2 p{
-    font-size:medium;
+.box-2 p {
+    font-size: medium;
 }
+
 /* Kontakt slut */
 
-@media screen and (min-width: 768px){
+/* Base start */
+#h1base {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.tilbageknap1 {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.tilbageknap2 {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.basevideo {
+    margin-top: 3%;
+}
+
+.h4base {
+
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+
+
+#basetekstet {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+
+}
+
+#basetekstto {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+
+}
+
+#baseteksttre {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+}
+
+
+#videoet {
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#videoto {
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Base slut  */
+
+@media screen and (min-width: 768px) {
 
     /* Tutorial start - tablet */
 
-    .baseknap{
+    .baseknap {
         font-size: x-large;
         padding: 2% 9.8%;
     }
 
-    .contourknap{
+    .contourknap {
         font-size: x-large;
         padding: 2% 7.8%;
     }
 
-    .brynknap{
-       font-size: x-large;
-       padding: 2% 12.1%;
+    .brynknap {
+        font-size: x-large;
+        padding: 2% 12.1%;
     }
 
-    .oejenskyggeknap{
-       font-size: x-large;
-       padding: 2% 7.4%;
+    .oejenskyggeknap {
+        font-size: x-large;
+        padding: 2% 7.4%;
     }
 
     /* Tutorial slut - tablet */
-    
+
+
+
+/* Base start - tablet */
+.tilbageknap1 {
+    padding: 1% 4%;
 }
 
+.tilbageknap2 {
+    padding: 1% 4%;
+}
+
+#basetekstet {
+    margin-bottom: 10%;
+}
+
+#basetekstto {
+    margin-bottom: 10%;
+}
+
+#baseteksttre {
+    margin-bottom: 5%;
+}
+
+#videoet {
+    height: 350px;
+    width: 90%;
+}
+
+#videoto {
+    height: 350px;
+    width: 90%;
+}
+}
+
+/* Base slut - tablet */
+
 @media screen and (min-width: 992px) {
-    #copy{
+    #copy {
         text-align: right;
     }
 
     /* Tutorial start - laptop */
 
-    .box{  
+    .box {
         display: flex;
         justify-content: space-between;
-        }
-    
-        #basebillede{
-            height: 65%;
-            width: 50%;
-        }
-    
-        .baseknap{
-            font-size: x-large;
-            padding: 2% 6.8%;
-        }    
-    
-        #contourbillede{
-            height: 65%;
-            width: 50%;
-        }
-    
-        .contourknap{
-            font-size: x-large;
-            padding: 2% 4.5%;
-        }
-    
-        #brynbillede{
-            height: 65%;
-            width: 50%;
-        }
-        .brynknap{
-            font-size: x-large;
-            padding: 2% 9.6%;
-         }
-    
-        #oejenskygge{
-            height: 65%;
-            width: 50%;
-            
-    
-        }
-    
-        .oejenskyggeknap{
-            font-size: x-large;
-            padding: 2% 3.9%;
-            margin-bottom: 0%;
-            
-         }
-         .footer{
-            flex-direction: row;
-        }
-    
-        #copy{
-            flex: 1;
-            align-self: flex-end;
-        }
+    }
+
+    #basebillede {
+        height: 65%;
+        width: 50%;
+    }
+
+    .baseknap {
+        font-size: x-large;
+        padding: 2% 6.8%;
+    }
+
+    #contourbillede {
+        height: 65%;
+        width: 50%;
+    }
+
+    .contourknap {
+        font-size: x-large;
+        padding: 2% 4.5%;
+    }
+
+    #brynbillede {
+        height: 65%;
+        width: 50%;
+    }
+
+    .brynknap {
+        font-size: x-large;
+        padding: 2% 9.6%;
+    }
+
+    #oejenskygge {
+        height: 65%;
+        width: 50%;
+
+
+    }
+
+    .oejenskyggeknap {
+        font-size: x-large;
+        padding: 2% 3.9%;
+        margin-bottom: 0%;
+
+    }
+
+    .footer {
+        flex-direction: row;
+    }
+
+    #copy {
+        flex: 1;
+        align-self: flex-end;
+    }
 
     /* Tutorial slut - laptop*/
 
-/* Kontakt start - laptop */
+    /* Kontakt start - laptop */
     .contact-container {
         display: flex;
         flex-wrap: wrap;
     }
+
     .box-1 {
         width: 70%;
     }
@@ -283,14 +404,83 @@ text-align: left;
         padding-top: 19%;
     }
 
-    .box-2 p{
+    .box-2 p {
         font-size: large;
     }
 
-    .footer{
-        padding-bottom:7%;
+    .footer {
+        padding-bottom: 7%;
     }
-}
+
 
 /* Kontakt slut - laptop */
 
+/* Base start - laptop */
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tilbageknap1 {
+    padding: 1% 3%;
+    font-size: 17px;
+}
+
+.tilbageknap2 {
+    padding: 1% 3%;
+    font-size: 17px;
+}
+
+
+
+#basetekstet {
+    margin-bottom: 5%;
+}
+
+#basetekstto {
+    max-width: 40%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+#baseteksttre {
+    max-width: 40%;
+    margin-bottom: 5%;
+    margin-top: 0;
+}
+
+
+.h4base {
+    margin-top: 5%;
+}
+
+#videoet {
+    height: 315px;
+    width: 500px;
+}
+
+#videoto {
+    height: 315px;
+    width: 500px;
+}
+
+
+#basetekstto {
+    order: 4;
+}
+
+#videoet {
+    order: 3;
+}
+
+#videoto {
+    order: 2;
+}
+
+#baseteksttre {
+    order: 1;
+}
+
+}
+
+/* Base slut - laptop */
