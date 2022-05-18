@@ -1,0 +1,70 @@
+body{
+    background-color: #F9F9F9;
+    font-family: playfair display;
+ }
+ 
+ .col-12{
+ background-color: #C7D9BC;
+ }
+ 
+ footer{
+     padding: 10px;
+     padding-left: 5%;
+     padding-top: 3%;
+     background-color: #C7D9BC;
+ }
+ 
+ #copy{
+ text-align: left;
+ }
+
+ /* Base start */
+ h1{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.basevideo{
+    margin-top: 3%;
+  }
+
+  h4{
+      display: block;
+      margin-left: 5%;
+  }
+
+
+
+  .basetekst{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+  }
+
+  .base{
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 997px){
+    .box{  
+        display: flex;
+        justify-content: space-between;
+        }
+    .base{
+        height: 70%;
+        width: 30%;
+    }
+
+    
+    
+
+ }
