@@ -121,6 +121,10 @@
     object-fit: contain;
 }
 
+.text-products{
+    text-align: center;
+}
+
 @media screen and (min-width: 992px) {
     .products {
         display: flex;
@@ -130,10 +134,8 @@
 
     .two-pictures{
         flex-direction: row;
-        justify-content: space-evenly;
         height: 100%;
         width:  100%;
-        transform: scale(1.5);
         
     }
 
@@ -149,7 +151,16 @@
         padding-right: 5%;
     }
 
+    .design{
+        justify-content:space-around;
+    }
+
+    /* .design-scale{
+        transform: scale(1.5);
+    } */
 }
+
+
     
 
       /* .product-1 .product-2 { */
