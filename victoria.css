@@ -181,19 +181,13 @@
 } */
 
 /* undesider til mærker */
-
+/* 
 .bobbi-brown {
     transform: scale(2);
-}
+} */
 
 
-
-.scale-text {
-    /* padding-top: 25%; */
-}
-
-
-.product-above {
+/* .product-above {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,23 +213,23 @@
 
 .img-style-2 {
     justify-content: center;
-}
+} */
 
 
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .img-style-2 {
         align-items: center;
         margin-left: 15%;
         transform: scale(1.2);
     }
 
-}
+} */
 
 
 @media screen and (min-width:992px) {
 
-    .product-above {
+    /* .product-above {
         display: flex;
         flex-direction: row;
         padding-right: 20%;
@@ -273,7 +267,7 @@
     .footer-products {
         display: flex;
 
-    }
+    } */
 
 
 }
