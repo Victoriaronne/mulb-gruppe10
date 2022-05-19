@@ -30,6 +30,14 @@ footer {
     text-align: left;
 }
 
+/* Forside - start */
+#forsidebillede{
+    height: 90%;
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+}
+/* Forside - slut */
+
 /* Tutorial start */
 #h1tutorial{ 
     text-align: center;
@@ -892,6 +900,21 @@ footer {
     #copy {
         text-align: right;
     }
+
+    /* Forside start */
+    #forsidebillede{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 700px;
+    }
+
+    #h1forside{
+        text-align: center;
+        margin-top: 3%;
+    }
+    /* Forside slut */
 
     /* Tutorial start - laptop */
 
