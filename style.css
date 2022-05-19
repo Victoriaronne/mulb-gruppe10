@@ -453,6 +453,144 @@ footer {
   }
 /* Øjenskygge slut */
 
+/* Mærker start */
+#h1maerker{ 
+    text-align: center;
+    margin-top: 3%;
+}
+
+.maerkerbilleder{
+  margin-top: 3%;
+}
+
+#anastasiabillede{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#bobbibrownbillede{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#cliniquebillede{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+#ecookingbillede{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#katevondbillede{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+#maybellinbillede{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+.anastasiaknap{
+   font-family: playfair display;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 4.5%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+}
+
+.bobbibrownknap{
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
+
+ .cliniqueknap{
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
+
+ .ecookingknap{
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
+
+ .katevondknap{
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+ }
+
+.maybellinknap{
+   font-family: playfair display;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 4.5%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 3%;
+   cursor: pointer;
+}
+/* Mærker slut  */
+
 
 @media screen and (min-width: 768px) {
 
@@ -584,6 +722,38 @@ footer {
     width: 90%;   
   }
     /* Øjenskygge slut - tablet */
+
+    /* Mærker start - tablet */
+    .anastasiaknap{
+        font-size: x-large;
+        padding: 2% 8.5%;
+    }
+
+    .bobbibrownknap{
+        font-size: x-large;
+        padding: 2% 8.5%;
+    }
+
+    .cliniqueknap{
+       font-size: x-large;
+       padding: 2% 8.5%;
+    }
+
+    .ecookingknap{
+       font-size: x-large;
+       padding: 2% 8.5%;
+    }
+
+    .katevondknap{
+        font-size: x-large;
+        padding: 2% 8.5%;
+     }
+
+    .maybellinknap{
+        font-size: x-large;
+        padding: 2% 8.5%;
+     }
+    /* Mærker slut - tablet  */
 
 }
 
@@ -889,4 +1059,70 @@ footer {
 #oejenskyggetekstto   {order: 1;}
 #videoefem  {order: 2;} 
 /* Øjenskygge slut - laptop */
+
+/* Mærker start - laptop */
+.box{  
+    display: flex;
+    justify-content: space-between;
+    }
+ 
+    #anastasiabillede{
+        height: 65%;
+        width: 50%;
+    }
+ 
+    .anastasiaknap{
+        font-size: x-large;
+        padding: 2% 7.3%;
+    }    
+ 
+    #bobbibrownbillede{
+        height: 65%;
+        width: 50%;
+    }
+ 
+    .bobbibrownknap{
+        font-size: x-large;
+        padding: 2% 7.3%;
+    }
+ 
+    #cliniquebillede{
+        height: 65%;
+        width: 50%;
+    }
+    .cliniqueknap{
+        font-size: x-large;
+        padding: 2% 7.3%;
+     }
+ 
+     #ecookingbillede{
+         height: 65%;
+         width: 50%;
+     }
+     .ecookingknap{
+         font-size: x-large;
+         padding: 2% 7.3%;
+      }
+ 
+      #katevondbillede{
+         height: 65%;
+         width: 50%;
+     }
+     .katevondknap{
+         font-size: x-large;
+         padding: 2% 7.3%;
+      }
+ 
+    #maybellinbillede{
+        height: 65%;
+        width: 50%;
+    }
+ 
+    .maybellinknap{
+        font-size: x-large;
+        padding: 2% 7.3%;
+        margin-bottom: 0%;
+        
+     }
+/* Mærker slut - laptop */
 }
