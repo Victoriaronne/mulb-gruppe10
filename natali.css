@@ -116,24 +116,44 @@ body{
  /* Tutorial slut */
 
  @media screen and (min-width: 768px){
+
+    #basebillede{
+        height: 65%;
+        width: 40%;
+    }
      .baseknap{
-         font-size: x-large;
-         padding: 2% 9.9%;
+         font-size: 20px;
+         padding: 1% 7.3%;
      }
+
+     #contourbillede{
+        height: 65%;
+        width: 40%;
+    }
 
      .contourknap{
-         font-size: x-large;
-         padding: 2% 7.9%;
+         font-size: 20px;
+         padding: 1% 5.7%;
      }
+
+     #brynbillede{
+        height: 65%;
+        width: 40%;
+    }
 
      .brynknap{
-        font-size: x-large;
-        padding: 2% 12.3%;
+        font-size: 20px;
+        padding: 1% 9.3%;
      }
 
+     #oejenskygge{
+        height: 65%;
+        width: 40%;
+    }
+
      .oejenskyggeknap{
-        font-size: x-large;
-        padding: 2% 7.4%;
+        font-size: 20px;
+        padding: 1% 5.3%;
      }
  }
 
@@ -141,48 +161,48 @@ body{
 
     .box{  
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     }
 
     #basebillede{
         height: 65%;
-        width: 50%;
+        width: 40%;
     }
 
     .baseknap{
-        font-size: x-large;
-        padding: 2% 8.9%;
+        font-size: 20px;
+        padding: 1% 6.5%;
     }    
 
     #contourbillede{
         height: 65%;
-        width: 50%;
+        width: 40%;
     }
 
     .contourknap{
-        font-size: x-large;
-        padding: 2% 6.8%;
+        font-size: 20px;
+        padding: 1% 4.8%;
     }
 
     #brynbillede{
         height: 65%;
-        width: 50%;
+        width: 40%;
     }
     .brynknap{
-        font-size: x-large;
-        padding: 2% 11.4%;
+        font-size: 20px;
+        padding: 1% 8.5%;
      }
 
     #oejenskygge{
         height: 65%;
-        width: 50%;
+        width: 40%;
         
 
     }
 
     .oejenskyggeknap{
-        font-size: x-large;
-        padding: 2% 6.3%;
+        font-size: 20px;
+        padding: 1% 4.4%;
         margin-bottom: 0%;
         
      }
@@ -329,34 +349,65 @@ body{
 /* Tutorial slut */
 
 @media screen and (min-width: 768px){
+
+    #anastasiabillede{
+        height: 65%;
+        width: 40%;
+    }
+
     .anastasiaknap{
-        font-size: x-large;
-        padding: 2% 8.5%;
+        font-size: 20px;
+        padding: 1% 6.1%;
+    }
+
+    #bobbibrownbillede{
+        height: 65%;
+        width: 40%;
     }
 
     .bobbibrownknap{
-        font-size: x-large;
-        padding: 2% 8.5%;
+        font-size: 20px;
+        padding: 1% 6.1%;
+    }
+
+    #cliniquebillede{
+        height: 65%;
+        width: 40%;
     }
 
     .cliniqueknap{
-       font-size: x-large;
-       padding: 2% 8.5%;
+       font-size: 20px;
+       padding: 1% 6.1%;
+    }
+
+    #ecookingbillede{
+        height: 65%;
+        width: 40%;
     }
 
     .ecookingknap{
-       font-size: x-large;
-       padding: 2% 8.5%;
+       font-size: 20px;
+       padding: 1% 6.1%;
+    }
+
+    #katevondbillede{
+        height: 65%;
+        width: 40%;
     }
 
     .katevondknap{
-        font-size: x-large;
-        padding: 2% 8.5%;
+        font-size: 20px;
+        padding: 1% 6.1%;
      }
 
+     #maybellinbillede{
+        height: 65%;
+        width: 40%;
+    }
+
     .maybellinknap{
-        font-size: x-large;
-        padding: 2% 8.5%;
+        font-size: 20px;
+        padding: 1% 6.1%;
      }
 }
 
@@ -369,59 +420,59 @@ body{
 
    #anastasiabillede{
        height: 65%;
-       width: 50%;
+       width: 40%;
    }
 
    .anastasiaknap{
-       font-size: x-large;
-       padding: 2% 7.3%;
+       font-size: 20px;
+       padding: 1% 5.2%;
    }    
 
    #bobbibrownbillede{
        height: 65%;
-       width: 50%;
+       width: 40%;
    }
 
    .bobbibrownknap{
-       font-size: x-large;
-       padding: 2% 7.3%;
+       font-size: 20px;
+       padding: 1% 5.2%;
    }
 
    #cliniquebillede{
        height: 65%;
-       width: 50%;
+       width: 40%;
    }
    .cliniqueknap{
-       font-size: x-large;
-       padding: 2% 7.3%;
+       font-size: 20px;
+       padding: 1% 5.2%;
     }
 
     #ecookingbillede{
         height: 65%;
-        width: 50%;
+        width: 40%;
     }
     .ecookingknap{
-        font-size: x-large;
-        padding: 2% 7.3%;
+        font-size: 20px;
+        padding: 1% 5.2%;
      }
 
      #katevondbillede{
         height: 65%;
-        width: 50%;
+        width: 40%;
     }
     .katevondknap{
-        font-size: x-large;
-        padding: 2% 7.3%;
+        font-size: 20px;
+        padding: 1% 5.2%;
      }
 
    #maybellinbillede{
        height: 65%;
-       width: 50%;
+       width: 40%;
    }
 
    .maybellinknap{
-       font-size: x-large;
-       padding: 2% 7.3%;
+       font-size: 20px;
+       padding: 1% 5.2%;
        margin-bottom: 0%;
        
     }
