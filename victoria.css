@@ -195,16 +195,16 @@
 }
 
 .design-order {
-    padding: 5%;
+    padding: 10%;
 
-
-
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
 }
 
 .img-style-2 {
     justify-content: center;
-    padding-left: 20%;
-    transform: scale(1.5);
 }
 
 .img-style {
@@ -218,6 +218,7 @@
     .img-style-2{
         align-items: center;
         margin-left: 15%;
+        transform: scale(1.2);
     }
 
 }
