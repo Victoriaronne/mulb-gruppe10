@@ -591,6 +591,50 @@ footer {
 }
 /* Mærker slut  */
 
+/* Undersider mærker start */
+
+.text-anastasia{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.product-12{
+    padding-top: 5%;
+}
+
+.img-style{
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    max-width: 400px;
+    max-height: 300px;
+    padding-top: 5%;
+}
+
+.fit-cover{
+    object-fit: cover;
+}
+
+.fit-contain{
+    object-fit: contain;
+}
+
+.text-products{
+    text-align: center;
+}
+
+/* Undersider til mærker slut */
+
 
 @media screen and (min-width: 768px) {
 
@@ -1125,4 +1169,38 @@ footer {
         
      }
 /* Mærker slut - laptop */
+
+/* Undersider til mærker start - laptop */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.two-pictures{
+    flex-direction: row;
+    height: 100%;
+    width:  100%;
+    
+}
+
+.product-12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.product-12 p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.design{
+    justify-content:space-around;
+}
+
+/* Undersider til mærker slut - laptop */
+
 }
