@@ -1204,7 +1204,13 @@ footer {
 .design{
     justify-content:space-around;
 }
+/* Undersider til mærker slut - laptop */
+
+/* Navbar start */
+    .navbar a{
+        font-size: 18px;
+    }
+/* Navbar slut */
 
 }
 
-/* Undersider til mærker slut - laptop */
