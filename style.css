@@ -1,6 +1,6 @@
 body {
     background-color: #F9F9F9;
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -189,7 +189,7 @@ footer {
 }
 
 .tilbageknap1 {
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 3%;
@@ -202,7 +202,7 @@ footer {
 }
 
 .tilbageknap2 {
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 1%;
@@ -272,7 +272,7 @@ footer {
 }
 
 .tilbageknap1 {
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 3%;
@@ -285,7 +285,7 @@ footer {
 }
 
 .tilbageknap2 {
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 1%;
@@ -337,7 +337,7 @@ footer {
 }
 
 .tilbageknap1{
-    font-family: playfair display; 
+    font-family: 'Playfair Display', serif; 
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 3%;
@@ -350,7 +350,7 @@ footer {
 }
 
 .tilbageknap2{
-    font-family: playfair display; 
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 1%;
@@ -401,7 +401,7 @@ footer {
 }
 
 .tilbageknap1{
-    font-family: playfair display; 
+    font-family: 'Playfair Display', serif; 
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 3%;
@@ -414,7 +414,7 @@ footer {
 }
 
 .tilbageknap2{
-    font-family: playfair display; 
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 1%;
