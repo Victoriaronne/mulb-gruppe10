@@ -185,13 +185,9 @@
     
 .design-order{
     order: -1;
-    padding-top: 2%;
-    padding-left: 10%;
-    padding-right: 10%; ;
+    padding-top:3%;
+    width: 60%;
+    padding-right: 5%;
 }
-.footer-products{
-    display: flex;
-    justify-content: baseline;
-    position: relative;
-}
+
 }
