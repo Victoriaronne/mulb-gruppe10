@@ -725,13 +725,7 @@ footer {
 
 
     /* Base  start - tablet */
-    .tilbageknap1 {
-        padding: 1% 4%;
-    }
-
-    .tilbageknap2 {
-        padding: 1% 4%;
-    }
+    
 
     #basetekstet {
         margin-bottom: 10%;
@@ -758,13 +752,7 @@ footer {
     /* Base  slut - tablet */
 
     /* Contour start - tablet */
-    .tilbageknap1 {
-        padding: 1% 4%;
-    }
-
-    .tilbageknap2 {
-        padding: 1% 4%;
-    }
+   
 
     #contourtekstet {
         margin-bottom: 10%;
@@ -782,13 +770,6 @@ footer {
     /* Contour slut - tablet */
 
     /* Bryn start - tablet */
-    .tilbageknap1{
-        padding: 1% 4%;
-    }
-
-    .tilbageknap2{
-        padding: 1% 4%;
-    }
 
    #bryntekstet{
        margin-bottom: 10%;
@@ -804,14 +785,18 @@ footer {
   }
     /* Bryn slut - tablet  */
 
-    /* Øjenskygge start - tablet */
+    /* Tilbageknapper start - tablet */
     .tilbageknap1{
-        padding: 1% 4%;
+        padding: 0.5% 3%;
     }
 
     .tilbageknap2{
-        padding: 1% 4%;
+        padding: 0.5% 3%;
     }
+    /* Tilbageknapper slut - tablet */
+
+    /* Øjenskygge start - tablet */
+   
 
    #oejenskyggetekstet{
        margin-bottom: 10%;
