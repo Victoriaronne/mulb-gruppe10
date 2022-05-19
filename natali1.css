@@ -587,6 +587,18 @@ body{
     #videoefem  {order: 2;} 
  }
 
+ #forsidebillede{
+     height: 90%;
+     width: 90%;
+     margin: 5% 5% 5% 5%;
+ }
+
+ @media screen and (min-width: 997px){
+    #forsidebillede{
+        height: 50%;
+        min-width: 0;
+    }
+ }
 
 
 
