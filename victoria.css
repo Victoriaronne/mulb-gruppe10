@@ -179,3 +179,19 @@
         
     }
 } */
+
+
+@media screen and (min-width:992px) {
+    
+.design-order{
+    order: -1;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%; ;
+}
+.footer-products{
+    display: flex;
+    justify-content: baseline;
+    position: relative;
+}
+}
