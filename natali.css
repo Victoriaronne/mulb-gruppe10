@@ -68,7 +68,7 @@ body{
     font-family: playfair display;
     background-color: #E2FFE2;
     border: black solid;
-    padding: 1% 6%;
+    padding: 1% 6.1%;
     display: block;
     margin-top: 1%;
     margin-left: auto;
@@ -80,7 +80,7 @@ body{
     font-family: playfair display;
     background-color: #E2FFE2;
     border: black solid;
-    padding: 1% 4%;
+    padding: 1% 3.8%;
     display: block;
     margin-top: 1%;
     margin-left: auto;
@@ -92,7 +92,7 @@ body{
     font-family: playfair display;
     background-color: #E2FFE2;
     border: black solid;
-    padding: 1% 9%;
+    padding: 1% 9.1%;
     display: block;
     margin-top: 1%;
     margin-left: auto;
@@ -118,17 +118,17 @@ body{
  @media screen and (min-width: 768px){
      .baseknap{
          font-size: x-large;
-         padding: 2% 9.8%;
+         padding: 2% 9.9%;
      }
 
      .contourknap{
          font-size: x-large;
-         padding: 2% 7.8%;
+         padding: 2% 7.9%;
      }
 
      .brynknap{
         font-size: x-large;
-        padding: 2% 12.1%;
+        padding: 2% 12.3%;
      }
 
      .oejenskyggeknap{
@@ -151,7 +151,7 @@ body{
 
     .baseknap{
         font-size: x-large;
-        padding: 2% 6.8%;
+        padding: 2% 8.9%;
     }    
 
     #contourbillede{
@@ -161,7 +161,7 @@ body{
 
     .contourknap{
         font-size: x-large;
-        padding: 2% 4.5%;
+        padding: 2% 6.8%;
     }
 
     #brynbillede{
@@ -170,7 +170,7 @@ body{
     }
     .brynknap{
         font-size: x-large;
-        padding: 2% 9.6%;
+        padding: 2% 11.4%;
      }
 
     #oejenskygge{
@@ -182,7 +182,7 @@ body{
 
     .oejenskyggeknap{
         font-size: x-large;
-        padding: 2% 3.9%;
+        padding: 2% 6.3%;
         margin-bottom: 0%;
         
      }
