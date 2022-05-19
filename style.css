@@ -9,7 +9,7 @@ body {
 .menu {
     display: flex;
     flex-wrap: wrap;
-    font-family: playfair display;
+    font-family: 'Playfair Display', serif;
 }
 
 .header {
