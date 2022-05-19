@@ -150,6 +150,10 @@ footer {
 
 }
 
+.contact-h1{
+    margin-top: 3%;
+}
+
 .contact button {
     text-decoration: none;
     border-radius: 10px;
@@ -631,6 +635,7 @@ footer {
 
 .text-products{
     text-align: center;
+    margin-top: 3%;
 }
 
 /* Undersider til mærker slut */
@@ -1199,6 +1204,6 @@ footer {
     justify-content:space-around;
 }
 
-/* Undersider til mærker slut - laptop */
-
 }
+
+/* Undersider til mærker slut - laptop */
