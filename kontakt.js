@@ -12,10 +12,10 @@ function sendEmail() {
             email: email,
             message: message,
         }
-        
+
         if (name && email && message) {
             emailjs.send(serviceID, templateID, emailData, userID);
-            console.log('Email Sent!')
+            (console.log)('Email Sent!')
         } else {
             console.log('INVALID - Email NOT Sent!')
         }
@@ -24,6 +24,32 @@ function sendEmail() {
 
         console.log(error)
     }
+
 }
 
+document
+    .getElementById("kontakt")
+    .addEventListener("submit", validateform)
 
+const templateParams{};
+
+function validateform(event{
+    event.preventDefault();
+    console.log("submitted");
+    const elements = document.getElementsByClassName('need-validation');
+    console.log(elements)
+    for(let element of elements){
+        if (element.type =="text" |)
+    }
+})
+
+const errorElements = document.getElementsByClassName("error-message")
+console.log("errorElements", errorElements);
+if (errorElements.length == 0) {
+    emailjs.send(
+        "service_xb1o8hg",
+        "template_s2qra5u",
+        emailData,
+        "ufO0_wig4VkETaUTU"
+    );
+}
