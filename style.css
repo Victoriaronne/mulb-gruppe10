@@ -30,16 +30,16 @@ footer {
 }
 
 /* Tutorial start */
-#h1tutorial {
+#h1tutorial{ 
     text-align: center;
     margin-top: 3%;
 }
 
-.tutorialbilleder {
-    margin-top: 3%;
+.tutorialbilleder{
+  margin-top: 3%;
 }
 
-#basebillede {
+#basebillede{
     height: 50%;
     width: 50%;
     display: block;
@@ -48,7 +48,7 @@ footer {
     margin-top: 10%;
 }
 
-#contourbillede {
+#contourbillede{
     height: 50%;
     width: 50%;
     display: block;
@@ -57,7 +57,7 @@ footer {
     margin-top: 10%;
 }
 
-#brynbillede {
+#brynbillede{
     height: 50%;
     width: 50%;
     display: block;
@@ -66,7 +66,7 @@ footer {
     margin-top: 10%;
 }
 
-#oejenskygge {
+#oejenskygge{
     height: 50%;
     width: 50%;
     display: block;
@@ -75,53 +75,53 @@ footer {
     margin-top: 10%;
 }
 
-.baseknap {
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 6%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
+.baseknap{
+   font-family: playfair display;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 6.1%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
 }
 
-.contourknap {
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 4%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
+.contourknap{
+   font-family: playfair display;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 3.8%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
 }
 
-.brynknap {
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 9%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
+.brynknap{
+   font-family: playfair display;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 9.1%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
 }
 
-.oejenskyggeknap {
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 3%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 3%;
-    cursor: pointer;
+.oejenskyggeknap{
+   font-family: playfair display;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 3%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 3%;
+   cursor: pointer;
 }
 
 /* Tutorial slut */
@@ -640,24 +640,24 @@ footer {
 
     /* Tutorial start - tablet */
 
-    .baseknap {
+    .baseknap{
         font-size: x-large;
-        padding: 2% 9.8%;
+        padding: 2% 9.9%;
     }
 
-    .contourknap {
+    .contourknap{
         font-size: x-large;
-        padding: 2% 7.8%;
+        padding: 2% 7.9%;
     }
 
-    .brynknap {
-        font-size: x-large;
-        padding: 2% 12.1%;
+    .brynknap{
+       font-size: x-large;
+       padding: 2% 12.3%;
     }
 
-    .oejenskyggeknap {
-        font-size: x-large;
-        padding: 2% 7.4%;
+    .oejenskyggeknap{
+       font-size: x-large;
+       padding: 2% 7.4%;
     }
 
     /* Tutorial slut - tablet */
@@ -812,55 +812,53 @@ footer {
 
     /* Tutorial start - laptop */
 
-    .box {
+    .box{  
         display: flex;
         justify-content: space-between;
-    }
-
-    #basebillede {
-        height: 65%;
-        width: 50%;
-    }
-
-    .baseknap {
-        font-size: x-large;
-        padding: 2% 6.8%;
-    }
-
-    #contourbillede {
-        height: 65%;
-        width: 50%;
-    }
-
-    .contourknap {
-        font-size: x-large;
-        padding: 2% 4.5%;
-    }
-
-    #brynbillede {
-        height: 65%;
-        width: 50%;
-    }
-
-    .brynknap {
-        font-size: x-large;
-        padding: 2% 9.6%;
-        margin-bottom: 3%;
-    }
-
-    #oejenskygge {
-        height: 65%;
-        width: 50%;
-
-
-    }
-
-    .oejenskyggeknap {
-        font-size: x-large;
-        padding: 2% 3.9%;
-        margin-bottom: 3%;
-
-    }
+        }
+    
+        #basebillede{
+            height: 65%;
+            width: 50%;
+        }
+    
+        .baseknap{
+            font-size: x-large;
+            padding: 2% 8.9%;
+        }    
+    
+        #contourbillede{
+            height: 65%;
+            width: 50%;
+        }
+    
+        .contourknap{
+            font-size: x-large;
+            padding: 2% 6.8%;
+        }
+    
+        #brynbillede{
+            height: 65%;
+            width: 50%;
+        }
+        .brynknap{
+            font-size: x-large;
+            padding: 2% 11.4%;
+         }
+    
+        #oejenskygge{
+            height: 65%;
+            width: 50%;
+            
+    
+        }
+    
+        .oejenskyggeknap{
+            font-size: x-large;
+            padding: 2% 6.3%;
+            margin-bottom: 0%;
+            
+         }
 
     .footer {
         flex-direction: row;
