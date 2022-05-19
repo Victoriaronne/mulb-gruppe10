@@ -31,25 +31,29 @@ document
     .getElementById("kontakt")
     .addEventListener("submit", validateform)
 
-const templateParams{};
+const templateParams = {};
 
-function validateform(event{
+function validateform(event){
     event.preventDefault();
     console.log("submitted");
     const elements = document.getElementsByClassName('need-validation');
     console.log(elements)
     for(let element of elements){
-        if (element.type =="text" |)
+        if (element.type =="text" || element.type == "textarea") {
+            textvalidation(element);
+        } else if (element.type == "email") {
+            emailValidation(element);
+        }
     }
-})
+}
 
-const errorElements = document.getElementsByClassName("error-message")
+const errorElements = document.getElementsByClassName("validaiont-error")
 console.log("errorElements", errorElements);
 if (errorElements.length == 0) {
     emailjs.send(
         "service_xb1o8hg",
         "template_s2qra5u",
-        emailData,
+        templateParams,
         "ufO0_wig4VkETaUTU"
     );
 }
