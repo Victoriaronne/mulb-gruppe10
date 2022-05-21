@@ -271,3 +271,15 @@
 
 
 }
+
+.reference{
+    font-size: small;
+}
+
+@media screen and (min-width: 768px) {
+    .reference{
+        justify-content: center;
+        padding-left: 15%;
+    }
+}
+
