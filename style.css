@@ -686,6 +686,23 @@ footer {
 
 /* Beskrivelse af produtker slut */
 
+/* Knapper til mærkesider - start */
+
+.anastasiaknap1{
+    font-family: 'Playfair Display', serif;
+   background-color: #E2FFE2;
+   border: black solid;
+   padding: 1% 6.1%;
+   display: block;
+   margin-top: 1%;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+
+}
+
+/* Knapper til mærkesider - slut  */
+
 @media screen and (min-width: 768px) {
 
     /* Tutorial start - tablet */
