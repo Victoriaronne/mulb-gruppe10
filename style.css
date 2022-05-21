@@ -650,6 +650,7 @@ footer {
     transform: scale(2);
 }
 
+
 /* Undersider til mærker slut */
 
 /* Beskrivelser af produkter start */
@@ -901,11 +902,11 @@ footer {
     /* Mærker slut - tablet  */
 
 /* Beskrivelse af produkter start - tablet */
-    .img-style-2 {
+    /* .img-style-2 {
         align-items: center;
         margin-left: 15%;
         transform: scale(1.2);
-    }
+    } */
 
 }
 
@@ -1322,12 +1323,11 @@ footer {
 
 .bobbi-brown-2 {
     transform: scale(2);
-    margin-top: 5%;
+    
 }
 
 .bobbi-brown-3{
     transform: scale(3);
-    margin-top: 8%;
 }
 
 .footer-products {
