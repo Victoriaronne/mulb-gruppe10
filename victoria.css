@@ -272,14 +272,28 @@
 
 }
 
-.reference{
+/* .reference{
     font-size: small;
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 992px) {
     .reference{
         justify-content: center;
-        padding-left: 15%;
+    
     }
-}
+    .img-up{
+        margin-top: -15%;
+    }
+} */
 
+/* .img-style-2{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+
+/* .img-style{
+    border: 1px solid black;
+} */

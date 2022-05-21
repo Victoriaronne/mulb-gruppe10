@@ -31,24 +31,25 @@ footer {
 }
 
 /* Forside - start */
-#forsidebillede{
+#forsidebillede {
     height: 90%;
     width: 90%;
     margin: 5% 5% 5% 5%;
 }
+
 /* Forside - slut */
 
 /* Tutorial start */
-#h1tutorial{ 
+#h1tutorial {
     text-align: center;
     margin-top: 3%;
 }
 
-.tutorialbilleder{
-  margin-top: 3%;
+.tutorialbilleder {
+    margin-top: 3%;
 }
 
-#basebillede{
+#basebillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -57,7 +58,7 @@ footer {
     margin-top: 10%;
 }
 
-#contourbillede{
+#contourbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -66,7 +67,7 @@ footer {
     margin-top: 10%;
 }
 
-#brynbillede{
+#brynbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -75,7 +76,7 @@ footer {
     margin-top: 10%;
 }
 
-#oejenskygge{
+#oejenskygge {
     height: 50%;
     width: 50%;
     display: block;
@@ -84,53 +85,53 @@ footer {
     margin-top: 10%;
 }
 
-.baseknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 6.1%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+.baseknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 6.1%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.contourknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 3.8%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+.contourknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 3.8%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.brynknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 9.1%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+.brynknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 9.1%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
 
-.oejenskyggeknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 3%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 3%;
-   cursor: pointer;
+.oejenskyggeknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 3%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    cursor: pointer;
 }
 
 /* Tutorial slut */
@@ -159,7 +160,7 @@ footer {
 
 }
 
-.contact-h1{
+.contact-h1 {
     margin-top: 3%;
 }
 
@@ -339,13 +340,13 @@ footer {
 /* Contour slut  */
 
 /* Bryn start */
-#h1bryn{ 
+#h1bryn {
     text-align: center;
     margin-top: 3%;
 }
 
-.tilbageknap1{
-    font-family: 'Playfair Display', serif; 
+.tilbageknap1 {
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 3%;
@@ -354,10 +355,10 @@ footer {
     padding: 1% 3%;
     font-size: 15px;
     cursor: pointer;
-    
+
 }
 
-.tilbageknap2{
+.tilbageknap2 {
     font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
@@ -367,49 +368,50 @@ footer {
     padding: 1% 3%;
     font-size: 15px;
     cursor: pointer;
-    
+
 }
 
-.brynvideo{
+.brynvideo {
     margin-top: 3%;
-  }
+}
 
-  #bryntekstet{
+#bryntekstet {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 15%;
 
-  }
+}
 
-  .h3bryn{
-      
+.h3bryn {
+
     margin-left: 5%;
     margin-top: 10%;
 }
 
-#videofire{
+#videofire {
     height: 200px;
     width: 90%;
     margin-left: 5%;
-    margin-right: 5%;    
-  }
+    margin-right: 5%;
+}
 
-  #bryntekstto{
+#bryntekstto {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 1%;
 
-  }
+}
+
 /* Bryn slut */
 
 /* Øjenskygge start */
-#h1oejenskygge{ 
+#h1oejenskygge {
     text-align: center;
     margin-top: 3%;
 }
 
-.tilbageknap1{
-    font-family: 'Playfair Display', serif; 
+.tilbageknap1 {
+    font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
     margin-top: 3%;
@@ -418,10 +420,10 @@ footer {
     padding: 1% 3%;
     font-size: 15px;
     cursor: pointer;
-    
+
 }
 
-.tilbageknap2{
+.tilbageknap2 {
     font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
@@ -431,52 +433,53 @@ footer {
     padding: 1% 3%;
     font-size: 15px;
     cursor: pointer;
-    
+
 }
 
-.oejenskyggevideo{
+.oejenskyggevideo {
     margin-top: 3%;
-  }
+}
 
-  #oejenskyggetekstet{
+#oejenskyggetekstet {
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 15%;
 
-  }
+}
 
-  .h3oejenskygge{
-      
+.h3oejenskygge {
+
     margin-left: 5%;
     margin-top: 10%;
 }
 
-#videofem{
+#videofem {
     height: 200px;
     width: 90%;
     margin-left: 5%;
-    margin-right: 5%;    
-  }
+    margin-right: 5%;
+}
 
-  #oejenskyggetekstto{
+#oejenskyggetekstto {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 1%;
 
-  }
+}
+
 /* Øjenskygge slut */
 
 /* Mærker start */
-#h1maerker{ 
+#h1maerker {
     text-align: center;
     margin-top: 3%;
 }
 
-.maerkerbilleder{
-  margin-top: 3%;
+.maerkerbilleder {
+    margin-top: 3%;
 }
 
-#anastasiabillede{
+#anastasiabillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -485,7 +488,7 @@ footer {
     margin-top: 10%;
 }
 
-#bobbibrownbillede{
+#bobbibrownbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -494,7 +497,7 @@ footer {
     margin-top: 10%;
 }
 
-#cliniquebillede{
+#cliniquebillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -503,7 +506,7 @@ footer {
     margin-top: 10%;
 }
 
-#ecookingbillede{
+#ecookingbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -512,7 +515,7 @@ footer {
     margin-top: 10%;
 }
 
-#katevondbillede{
+#katevondbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -521,7 +524,7 @@ footer {
     margin-top: 10%;
 }
 
-#maybellinbillede{
+#maybellinbillede {
     height: 50%;
     width: 50%;
     display: block;
@@ -530,19 +533,7 @@ footer {
     margin-top: 10%;
 }
 
-.anastasiaknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 4.5%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
-}
-
-.bobbibrownknap{
+.anastasiaknap {
     font-family: playfair display;
     background-color: #E2FFE2;
     border: black solid;
@@ -552,61 +543,74 @@ footer {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
- }
-
- .cliniqueknap{
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 4.5%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
- }
-
- .ecookingknap{
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 4.5%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
- }
-
- .katevondknap{
-    font-family: playfair display;
-    background-color: #E2FFE2;
-    border: black solid;
-    padding: 1% 4.5%;
-    display: block;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
- }
-
-.maybellinknap{
-   font-family: playfair display;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 4.5%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   margin-bottom: 3%;
-   cursor: pointer;
 }
+
+.bobbibrownknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.cliniqueknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.ecookingknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.katevondknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.maybellinknap {
+    font-family: playfair display;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 4.5%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
 /* Mærker slut  */
 
 /* Undersider mærker start */
 
-.text-anastasia{
+.text-anastasia {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -618,14 +622,14 @@ footer {
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
-    
+
 }
 
-.product-12{
+.product-12 {
     padding-top: 5%;
 }
 
-.img-style{
+.img-style {
     align-items: center;
     width: 70%;
     height: 70%;
@@ -633,22 +637,31 @@ footer {
     max-height: 300px;
 }
 
-.fit-cover{
+.fit-cover {
     object-fit: cover;
 }
 
-.fit-contain{
+.fit-contain {
     object-fit: contain;
 }
 
-.text-products{
+.text-products {
     text-align: center;
     margin-top: 3%;
 }
 
-.bobbi-brown {
-    transform: scale(2);
+.reference {
+    font-size: x-small;
 }
+
+
+/* Undersider til mærker + beskrivelser af mærker start */
+
+.img-style{
+    border: 1px solid black;
+}
+
+/* Undersider til mærker + beskrivelser af mærker slut */
 
 /* Undersider til mærker slut */
 
@@ -688,16 +701,16 @@ footer {
 
 /* Knapper til mærkesider - start */
 
-.anastasiaknap1{
+.anastasiaknap1 {
     font-family: 'Playfair Display', serif;
-   background-color: #E2FFE2;
-   border: black solid;
-   padding: 1% 6.1%;
-   display: block;
-   margin-top: 1%;
-   margin-left: auto;
-   margin-right: auto;
-   cursor: pointer;
+    background-color: #E2FFE2;
+    border: black solid;
+    padding: 1% 6.1%;
+    display: block;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 
 }
 
@@ -707,51 +720,52 @@ footer {
 
     /* Tutorial start - tablet */
 
-    #basebillede{
-        height: 65%;
-        width: 40%;
-    }
-     .baseknap{
-         font-size: 20px;
-         padding: 1% 7.3%;
-     }
-
-     #contourbillede{
+    #basebillede {
         height: 65%;
         width: 40%;
     }
 
-     .contourknap{
-         font-size: 20px;
-         padding: 1% 5.7%;
-     }
+    .baseknap {
+        font-size: 20px;
+        padding: 1% 7.3%;
+    }
 
-     #brynbillede{
+    #contourbillede {
         height: 65%;
         width: 40%;
     }
 
-     .brynknap{
+    .contourknap {
+        font-size: 20px;
+        padding: 1% 5.7%;
+    }
+
+    #brynbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .brynknap {
         font-size: 20px;
         padding: 1% 9.3%;
-     }
+    }
 
-     #oejenskygge{
+    #oejenskygge {
         height: 65%;
         width: 40%;
     }
 
-     .oejenskyggeknap{
+    .oejenskyggeknap {
         font-size: 20px;
         padding: 1% 5.3%;
-     }
+    }
 
     /* Tutorial slut - tablet */
 
 
 
     /* Base  start - tablet */
-    
+
 
     #basetekstet {
         margin-bottom: 10%;
@@ -778,7 +792,7 @@ footer {
     /* Base  slut - tablet */
 
     /* Contour start - tablet */
-   
+
 
     #contourtekstet {
         margin-bottom: 10%;
@@ -797,121 +811,116 @@ footer {
 
     /* Bryn start - tablet */
 
-   #bryntekstet{
-       margin-bottom: 10%;
-   }
+    #bryntekstet {
+        margin-bottom: 10%;
+    }
 
-   #bryntekstto{
-       margin-bottom: 5%;
-   }
+    #bryntekstto {
+        margin-bottom: 5%;
+    }
 
-   #videofire{
-    height: 350px;
-    width: 90%;   
-  }
+    #videofire {
+        height: 350px;
+        width: 90%;
+    }
+
     /* Bryn slut - tablet  */
 
     /* Tilbageknapper start - tablet */
-    .tilbageknap1{
+    .tilbageknap1 {
         padding: 0.5% 3%;
     }
 
-    .tilbageknap2{
+    .tilbageknap2 {
         padding: 0.5% 3%;
     }
+
     /* Tilbageknapper slut - tablet */
 
     /* Øjenskygge start - tablet */
-   
 
-   #oejenskyggetekstet{
-       margin-bottom: 10%;
-   }
 
-   #oejenskyggetekstto{
-       margin-bottom: 5%;
-   }
+    #oejenskyggetekstet {
+        margin-bottom: 10%;
+    }
 
-   #videofem{
-    height: 350px;
-    width: 90%;   
-  }
+    #oejenskyggetekstto {
+        margin-bottom: 5%;
+    }
+
+    #videofem {
+        height: 350px;
+        width: 90%;
+    }
+
     /* Øjenskygge slut - tablet */
 
     /* Mærker start - tablet */
-    #anastasiabillede{
+    #anastasiabillede {
         height: 65%;
         width: 40%;
     }
 
-    .anastasiaknap{
+    .anastasiaknap {
         font-size: 20px;
         padding: 1% 6.1%;
     }
 
-    #bobbibrownbillede{
+    #bobbibrownbillede {
         height: 65%;
         width: 40%;
     }
 
-    .bobbibrownknap{
+    .bobbibrownknap {
         font-size: 20px;
         padding: 1% 6.1%;
     }
 
-    #cliniquebillede{
+    #cliniquebillede {
         height: 65%;
         width: 40%;
     }
 
-    .cliniqueknap{
-       font-size: 20px;
-       padding: 1% 6.1%;
-    }
-
-    #ecookingbillede{
-        height: 65%;
-        width: 40%;
-    }
-
-    .ecookingknap{
-       font-size: 20px;
-       padding: 1% 6.1%;
-    }
-
-    #katevondbillede{
-        height: 65%;
-        width: 40%;
-    }
-
-    .katevondknap{
+    .cliniqueknap {
         font-size: 20px;
         padding: 1% 6.1%;
-     }
+    }
 
-     #maybellinbillede{
+    #ecookingbillede {
         height: 65%;
         width: 40%;
     }
 
-    .maybellinknap{
+    .ecookingknap {
         font-size: 20px;
         padding: 1% 6.1%;
-     }
+    }
+
+    #katevondbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .katevondknap {
+        font-size: 20px;
+        padding: 1% 6.1%;
+    }
+
+    #maybellinbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .maybellinknap {
+        font-size: 20px;
+        padding: 1% 6.1%;
+    }
+
     /* Mærker slut - tablet  */
 
-/* Beskrivelse af produkter start - tablet */
-    .img-style-2 {
-        align-items: center;
-        margin-left: 15%;
-        transform: scale(1.2);
-    }
+    /* Beskrivelse af produkter start - tablet */
 
 }
-
-
-
-
 
 
 @media screen and (min-width: 992px) {
@@ -920,7 +929,7 @@ footer {
     }
 
     /* Forside start */
-    #forsidebillede{
+    #forsidebillede {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -928,61 +937,63 @@ footer {
         width: 700px;
     }
 
-    #h1forside{
+    #h1forside {
         text-align: center;
         margin-top: 3%;
     }
+
     /* Forside slut */
 
     /* Tutorial start - laptop */
 
-    .box{  
+    .box {
         display: flex;
         justify-content: space-evenly;
-        }
-    
-        #basebillede{
-            height: 65%;
-            width: 40%;
-        }
-    
-        .baseknap{
-            font-size: 20px;
-            padding: 1% 6.5%;
-        }    
-    
-        #contourbillede{
-            height: 65%;
-            width: 40%;
-        }
-    
-        .contourknap{
-            font-size: 20px;
-            padding: 1% 4.8%;
-        }
-    
-        #brynbillede{
-            height: 65%;
-            width: 40%;
-        }
-        .brynknap{
-            font-size: 20px;
-            padding: 1% 8.5%;
-         }
-    
-        #oejenskygge{
-            height: 65%;
-            width: 40%;
-            
-    
-        }
-    
-        .oejenskyggeknap{
-            font-size: 20px;
-            padding: 1% 4.4%;
-            margin-bottom: 0%;
-            
-         }
+    }
+
+    #basebillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .baseknap {
+        font-size: 20px;
+        padding: 1% 6.5%;
+    }
+
+    #contourbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .contourknap {
+        font-size: 20px;
+        padding: 1% 4.8%;
+    }
+
+    #brynbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .brynknap {
+        font-size: 20px;
+        padding: 1% 8.5%;
+    }
+
+    #oejenskygge {
+        height: 65%;
+        width: 40%;
+
+
+    }
+
+    .oejenskyggeknap {
+        font-size: 20px;
+        padding: 1% 4.4%;
+        margin-bottom: 0%;
+
+    }
 
     /* Tutorial slut - laptop*/
 
@@ -1017,9 +1028,6 @@ footer {
         display: flex;
         justify-content: space-between;
     }
-
-
-
 
     #basetekstet {
         margin-bottom: 5%;
@@ -1073,243 +1081,266 @@ footer {
 
 
 
-/* Contour start - laptop */
-.box {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-#contourtekstet {
-    margin-bottom: 5%;
-}
-
-#contourtekstto {
-    max-width: 40%;
-    margin-bottom: 5%;
-    margin-top: 0;
-}
-
-
-.h3contour {
-    margin-top: 5%;
-}
-
-#videotre {
-    height: 315px;
-    width: 500px;
-}
-
-
-#contourtekstto {
-    order: 1;
-}
-
-#videoetre {
-    order: 2;
-}
-
-/* Contour slut - laptop */
-
-/* Bryn start - laptop */
-.box{  
-    display: flex;
-    justify-content: space-between;
+    /* Contour start - laptop */
+    .box {
+        display: flex;
+        justify-content: space-between;
     }
 
 
 
-#bryntekstet{
-    margin-bottom: 5%;
-}
 
-#bryntekstto{
-    max-width: 40%;
-    margin-bottom: 5%;
-    margin-top: 0;
-}
-
-
-.h3bryn{
-    margin-top: 5%;
-}
-
-#videofire{
-    height: 315px;
-    width: 500px;
-}
-
-
-#bryntekstto   {order: 1;}
-#videoefire  {order: 2;} 
-/* Bryn slut - laptop  */
-
-/* Tilbageknapper start - laptop*/
-
-.tilbageknap1{
-    padding: 0.5% 2%;
-    font-size: 17px;
-}
-
-.tilbageknap2{
-    padding: 0.5% 2%;
-    font-size: 17px;
-}
-/* Tilbageknapper slut - laptop*/
-
-/* Øjenskygge start - laptop */
-.box{  
-    display: flex;
-    justify-content: space-between;
+    #contourtekstet {
+        margin-bottom: 5%;
     }
 
-#oejenskyggetekstet{
-    margin-bottom: 5%;
-}
-
-#oejenskyggetekstto{
-    max-width: 40%;
-    margin-bottom: 5%;
-    margin-top: 0;
-}
-
-
-.h3oejenskygge{
-    margin-top: 5%;
-}
-
-#videofem{
-    height: 315px;
-    width: 500px;
-}
-
-
-#oejenskyggetekstto   {order: 1;}
-#videoefem  {order: 2;} 
-/* Øjenskygge slut - laptop */
-
-/* Mærker start - laptop */
-.box{  
-    display: flex;
-    justify-content: space-between;
+    #contourtekstto {
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
     }
- 
-    #anastasiabillede{
+
+
+    .h3contour {
+        margin-top: 5%;
+    }
+
+    #videotre {
+        height: 315px;
+        width: 500px;
+    }
+
+
+    #contourtekstto {
+        order: 1;
+    }
+
+    #videoetre {
+        order: 2;
+    }
+
+    /* Contour slut - laptop */
+
+    /* Bryn start - laptop */
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    #bryntekstet {
+        margin-bottom: 5%;
+    }
+
+    #bryntekstto {
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+
+    .h3bryn {
+        margin-top: 5%;
+    }
+
+    #videofire {
+        height: 315px;
+        width: 500px;
+    }
+
+
+    #bryntekstto {
+        order: 1;
+    }
+
+    #videoefire {
+        order: 2;
+    }
+
+    /* Bryn slut - laptop  */
+
+    /* Tilbageknapper start - laptop*/
+
+    .tilbageknap1 {
+        padding: 0.5% 2%;
+        font-size: 17px;
+    }
+
+    .tilbageknap2 {
+        padding: 0.5% 2%;
+        font-size: 17px;
+    }
+
+    /* Tilbageknapper slut - laptop*/
+
+    /* Øjenskygge start - laptop */
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #oejenskyggetekstet {
+        margin-bottom: 5%;
+    }
+
+    #oejenskyggetekstto {
+        max-width: 40%;
+        margin-bottom: 5%;
+        margin-top: 0;
+    }
+
+
+    .h3oejenskygge {
+        margin-top: 5%;
+    }
+
+    #videofem {
+        height: 315px;
+        width: 500px;
+    }
+
+
+    #oejenskyggetekstto {
+        order: 1;
+    }
+
+    #videoefem {
+        order: 2;
+    }
+
+    /* Øjenskygge slut - laptop */
+
+    /* Mærker start - laptop */
+    .box {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #anastasiabillede {
         height: 65%;
         width: 40%;
     }
- 
-    .anastasiaknap{
+
+    .anastasiaknap {
         font-size: 20px;
         padding: 1% 5.2%;
-    }    
- 
-    #bobbibrownbillede{
+    }
+
+    #bobbibrownbillede {
         height: 65%;
         width: 40%;
     }
- 
-    .bobbibrownknap{
+
+    .bobbibrownknap {
         font-size: 20px;
         padding: 1% 5.2%;
     }
- 
-    #cliniquebillede{
+
+    #cliniquebillede {
         height: 65%;
         width: 40%;
     }
-    .cliniqueknap{
+
+    .cliniqueknap {
         font-size: 20px;
         padding: 1% 5.2%;
-     }
- 
-     #ecookingbillede{
-         height: 65%;
-         width: 40%;
-     }
-     .ecookingknap{
-         font-size: 20px;
-         padding: 1% 5.2%;
-      }
- 
-      #katevondbillede{
-         height: 65%;
-         width: 40%;
-     }
-     .katevondknap{
-         font-size: 20px;
-         padding: 1% 5.2%;
-      }
- 
-    #maybellinbillede{
+    }
+
+    #ecookingbillede {
         height: 65%;
         width: 40%;
     }
- 
-    .maybellinknap{
+
+    .ecookingknap {
+        font-size: 20px;
+        padding: 1% 5.2%;
+    }
+
+    #katevondbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .katevondknap {
+        font-size: 20px;
+        padding: 1% 5.2%;
+    }
+
+    #maybellinbillede {
+        height: 65%;
+        width: 40%;
+    }
+
+    .maybellinknap {
         font-size: 20px;
         padding: 1% 5.2%;
         margin-bottom: 0%;
-        
-     }
-/* Mærker slut - laptop */
 
-/* Undersider til mærker start - laptop */
-
-.products {
-    display: flex;
-    flex-wrap: wrap;
-  
-}
-
-.two-pictures{
-    flex-direction: row;
-    height: 100%;
-    width:  100%;
-    
-}
-
-.product-12 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-}
-
-.product-12 p{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.design{
-    justify-content:space-around;
-}
-/* Undersider til mærker slut - laptop */
-
-/* Navbar start */
-    .navbar a{
-        font-size: 18px;
     }
-/* Navbar slut */
 
-/* Beskrivelse af produkter start - laptop */
+    /* Mærker slut - laptop */
+
+    /* Undersider til mærker start - laptop */
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .two-pictures {
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .product-12 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .product-12 p {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .design {
+        justify-content: space-around;
+    }
+    /* Undersider til mærker slut - laptop */
+
+    /* Beskrivelse af produkter start - laptop */
+
+    .reference {
+        justify-content: center;
+
+    }
+
+    .img-up {
+        margin-top: -15%;
+    }
+
+    .design-order {
+    order: -1;
+    justify-content: right;
+    width: 50%;
+
+}
+
 
 .product-above {
     display: flex;
     flex-direction: row;
     padding-right: 10%;
     justify-content: space-around;
+    align-items: center;
 
 }
 
-.design-order {
-    order: -1;
-    justify-content: right;
-    width: 50%;
-
-}
 
 .img-style-2 {
     height: 70%;
@@ -1320,14 +1351,9 @@ footer {
 
 }
 
-.bobbi-brown-2 {
-    transform: scale(2);
-    margin-top: 5%;
-}
-
-.bobbi-brown-3{
-    transform: scale(3);
-    margin-top: 8%;
+.bobbi-brown-3 {
+ 
+    width: 50%;
 }
 
 .footer-products {
@@ -1336,6 +1362,17 @@ footer {
 }
 
 /* Beskrivelse af produkter slut - laptop */
-
 }
+
+
+
+/* Navbar start */
+.navbar a {
+    font-size: 18px;
+}
+
+/* Navbar slut */
+
+
+
 
