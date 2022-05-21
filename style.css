@@ -646,10 +646,6 @@ footer {
     margin-top: 3%;
 }
 
-.bobbi-brown {
-    transform: scale(2);
-}
-
 
 /* Undersider til mærker slut */
 
@@ -1321,10 +1317,15 @@ footer {
 
 }
 
+.bobbi-brown{
+    transform: scale(2);
+}
+
 .bobbi-brown-2 {
     transform: scale(2);
     
 }
+
 
 .bobbi-brown-3{
     transform: scale(3);

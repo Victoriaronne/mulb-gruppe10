@@ -276,14 +276,15 @@
     font-size: small;
 }
 
-.img-up{
-    margin-top: -15%;
-}
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 992px) {
     .reference{
         justify-content: center;
     
+    }
+    .img-up{
+        margin-top: -15%;
     }
 }
 
