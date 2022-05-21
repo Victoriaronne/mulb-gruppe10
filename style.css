@@ -655,6 +655,13 @@ footer {
 }
 
 
+/* Undersider til mærker + beskrivelser af mærker start */
+
+.img-style{
+    border: 1px solid black;
+}
+
+/* Undersider til mærker + beskrivelser af mærker slut */
 
 /* Undersider til mærker slut */
 
@@ -912,11 +919,6 @@ footer {
     /* Mærker slut - tablet  */
 
     /* Beskrivelse af produkter start - tablet */
-    /* .img-style-2 {
-        align-items: center;
-        margin-left: 15%;
-        transform: scale(1.2);
-    } */
 
 }
 
@@ -1026,9 +1028,6 @@ footer {
         display: flex;
         justify-content: space-between;
     }
-
-
-
 
     #basetekstet {
         margin-bottom: 5%;
@@ -1312,6 +1311,9 @@ footer {
     .design {
         justify-content: space-around;
     }
+    /* Undersider til mærker slut - laptop */
+
+    /* Beskrivelse af produkter start - laptop */
 
     .reference {
         justify-content: center;
@@ -1321,33 +1323,24 @@ footer {
     .img-up {
         margin-top: -15%;
     }
+
+    .design-order {
+    order: -1;
+    justify-content: right;
+    width: 50%;
+
 }
 
-/* Undersider til mærker slut - laptop */
-
-/* Navbar start */
-.navbar a {
-    font-size: 18px;
-}
-
-/* Navbar slut */
-
-/* Beskrivelse af produkter start - laptop */
 
 .product-above {
     display: flex;
     flex-direction: row;
     padding-right: 10%;
     justify-content: space-around;
+    align-items: center;
 
 }
 
-.design-order {
-    order: -1;
-    justify-content: right;
-    width: 50%;
-
-}
 
 .img-style-2 {
     height: 70%;
@@ -1358,18 +1351,9 @@ footer {
 
 }
 
-.bobbi-brown {
-    transform: scale(2);
-}
-
-.bobbi-brown-2 {
-    transform: scale(2);
-
-}
-
-
 .bobbi-brown-3 {
-    transform: scale(3);
+ 
+    width: 50%;
 }
 
 .footer-products {
@@ -1378,4 +1362,17 @@ footer {
 }
 
 /* Beskrivelse af produkter slut - laptop */
+}
+
+
+
+/* Navbar start */
+.navbar a {
+    font-size: 18px;
+}
+
+/* Navbar slut */
+
+
+
 
