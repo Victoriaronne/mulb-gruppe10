@@ -705,7 +705,6 @@ footer {
     background-color: #E2FFE2;
     border: black solid;
     padding: 1%;
-    width: 80%;
     display: block;
     margin-top: 1%;
     margin-left: auto;
@@ -1374,10 +1373,11 @@ footer {
 }
 
  /* Knapper til mærker start - tablet */
-.produktknap{
-    font-size: 15px;
-    width: 60%;
-}
+
+ .produktknap{
+     width: 100%;
+ }
+
 
 /* Knapper til mærker slut - tablet  */
 
