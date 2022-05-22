@@ -37,12 +37,17 @@ footer {
     margin: 5% 5% 5% 5%;
 }
 
+#h2forside{
+    text-align: center;
+}
+
 /* Forside - slut */
 
 /* Tutorial start */
 #h1tutorial {
     text-align: center;
     margin-top: 3%;
+
 }
 
 .tutorialbilleder {
@@ -643,6 +648,7 @@ footer {
 
 .fit-contain {
     object-fit: contain;
+    
 }
 
 .text-products {
@@ -655,13 +661,6 @@ footer {
 }
 
 
-/* Undersider til mærker + beskrivelser af mærker start */
-
-.img-style{
-    border: 1px solid black;
-}
-
-/* Undersider til mærker + beskrivelser af mærker slut */
 
 /* Undersider til mærker slut */
 
@@ -701,18 +700,19 @@ footer {
 
 /* Knapper til mærkesider - start */
 
-.anastasiaknap1 {
+.produktknap{
     font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
-    padding: 1% 6.1%;
+    padding: 1%;
+    width: 80%;
     display: block;
     margin-top: 1%;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-
 }
+
 
 /* Knapper til mærkesider - slut  */
 
@@ -919,6 +919,11 @@ footer {
     /* Mærker slut - tablet  */
 
     /* Beskrivelse af produkter start - tablet */
+
+    /* Knapper til mærker start - tablet */
+    
+
+    /* Knapper til mærker slut - tablet  */
 
 }
 
@@ -1299,7 +1304,7 @@ footer {
     .product-12 {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
 
     }
 
@@ -1362,14 +1367,27 @@ footer {
 }
 
 /* Beskrivelse af produkter slut - laptop */
-}
-
-
 
 /* Navbar start */
 .navbar a {
     font-size: 18px;
 }
+
+ /* Knapper til mærker start - tablet */
+.produktknap{
+    font-size: 15px;
+    width: 60%;
+}
+
+/* Knapper til mærker slut - tablet  */
+
+
+
+}
+
+
+
+
 
 /* Navbar slut */
 
