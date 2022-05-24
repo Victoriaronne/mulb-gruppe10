@@ -6,6 +6,10 @@ body {
     height: 100vh;
 }
 
+button{
+    color: black;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
