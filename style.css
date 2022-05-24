@@ -943,6 +943,7 @@ footer {
 @media screen and (min-width: 992px) {
     #copy {
         text-align: right;
+        padding-right: 5%;
     }
 
     /* Forside start */
@@ -1390,7 +1391,7 @@ footer {
  /* Knapper til mærker start - tablet */
 
  .produktknap{
-    max-width: 350px;
+    max-width: 316px;
 }
 
 
