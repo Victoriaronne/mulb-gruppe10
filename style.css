@@ -624,10 +624,10 @@ footer {
 
 /* Undersider mærker start */
 
-.text-anastasia {
+/* .text-anastasia {
     padding-left: 10%;
     padding-right: 10%;
-}
+} */
 
 
 .products {
@@ -669,6 +669,8 @@ footer {
 .text-products {
     text-align: center;
     margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .reference {
