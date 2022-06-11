@@ -21,7 +21,7 @@ function sendEmail() { //Laver funkton der hedder sent email
     }
 
     var infoMessage = document.getElementsByClassName("info-message")[0]; //refecerer fra html kontaktside 
-    if (name && email && message) {
+    if (name.value && email.value && message.value) {
         emailjs.send(serviceID, templateID, emailData, userID); //Bruger emailjs til at sende mail, udfra vores konstanter vi har brugt længere oppe
         infoMessage.textContent = 'Tak for din mail!'; //sætter bare tekst indholdet for vore html tekst indhold 
         name.value = null; //for at slette de som tidligere har skrevet
