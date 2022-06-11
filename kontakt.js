@@ -13,7 +13,7 @@ function sendEmail() {
     }
 
     var infoMessage = document.getElementsByClassName("info-message")[0];
-    if (name && email && message) {
+    if (name.value && email.value && message.value) {
         emailjs.send(serviceID, templateID, emailData, userID);
         infoMessage.textContent = 'Tak for din mail!';
         name.value = null;
