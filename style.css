@@ -10,6 +10,10 @@ button{
     color: black;
 }
 
+button:hover{
+    background-color: #b8e1b8;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -179,14 +183,17 @@ footer {
 }
 
 .contact-h1 {
+    text-align: center;
     margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .contact button {
     text-decoration: none;
     border-radius: 10px;
     margin-bottom: 50%;
-    background-color: #8FB379;
+    background-color: #E2FFE2;
 }
 
 .contact-information {
@@ -442,6 +449,19 @@ footer {
 }
 
 .tilbageknap2 {
+    font-family: 'Playfair Display', serif;
+    background-color: #E2FFE2;
+    border: black solid;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    margin-left: 5%;
+    padding: 1% 3%;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.tilbageknap3 {
     font-family: 'Playfair Display', serif;
     background-color: #E2FFE2;
     border: black solid;
@@ -730,6 +750,7 @@ footer {
     margin-right: auto;
     cursor: pointer;
 }
+
 
 
 /* Knapper til mærkesider - slut  */
@@ -1028,6 +1049,16 @@ footer {
         flex-wrap: wrap;
     }
 
+    .contact button:hover{
+        background-color:#b8e1b8 ;
+    }
+
+  
+  .contact-h1{
+    width: 100%;
+    text-align: center;
+  }
+
     .box-1 {
         width: 70%;
     }
@@ -1039,10 +1070,6 @@ footer {
 
     .box-2 p {
         font-size: large;
-    }
-
-    .footer {
-        padding-bottom: 7%;
     }
 
 
@@ -1195,6 +1222,12 @@ footer {
     .tilbageknap2 {
         padding: 0.5% 2%;
         font-size: 17px;
+    }
+
+    .tilbageknap3{
+        background-color: transparent;
+        border: none !important;
+        font-size: 0;
     }
 
     /* Tilbageknapper slut - laptop*/
@@ -1396,6 +1429,8 @@ footer {
     font-size: 18px;
 }
 
+/* Navbar slut */
+
  /* Knapper til mærker start - tablet */
 
  .produktknap{
@@ -1413,7 +1448,7 @@ footer {
 
 
 
-/* Navbar slut */
+
 
 
 
