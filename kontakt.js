@@ -19,7 +19,7 @@ function sendEmail() {
         name.value = null;
         email.value = null;
         message.value = null;
-    } else {U
+    } else {
         infoMessage.textContent = 'Udfyld venligst alle felter';
     }   
 }
