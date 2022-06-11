@@ -71,10 +71,12 @@
               <label for="message">Besked*</label>
               <textarea required class="need-validation" name="message" id="message" cols="30" rows="5"
                 placeholder="F.eks. ønsker til flere videoer"></textarea> <br>
-                <span class="info-message"></span>
+                <span class="info-message"></span> 
+                <!-- refecer fra vores info messege i js filen -->
             </div>
             <div class="contact-button">
               <button type="button" onclick="sendEmail()">Send</button>
+              <!-- onclick kalder "send email" funktion -->
             </div>
           </div>
         </div>
@@ -106,11 +108,11 @@
 
   </footer>
 
-  <script src="kontakt.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-  <script type="text/javascript">
-    (function () {
-      emailjs.init("ufO0_wig4VkETaUTU");
+  <script src="kontakt.js"></script> <!--Henter vores javascript side  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script> <!-- Henter noget javascript ind fra js -->
+  <script type="text/javascript">   
+    (function () { //Strarter en funktion 
+      emailjs.init("ufO0_wig4VkETaUTU"); //Incalicerer (Starer - sørger for man kan bruge det) en indance for emailjs  
     })();
   </script>
 
