@@ -6,6 +6,10 @@ body {
     height: 100vh;
 }
 
+button{
+    color: black;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -624,18 +628,13 @@ footer {
 
 /* Undersider mærker start */
 
-.text-anastasia {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-
 .products {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 2%;
 
 }
 
@@ -661,13 +660,23 @@ footer {
     
 }
 
+.fit-scaledown{
+    object-fit: scale-down;
+}
+
 .text-products {
     text-align: center;
     margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .reference {
     font-size: x-small;
+}
+
+.img-down{
+    padding-top: 8%;
 }
 
 
@@ -942,6 +951,7 @@ footer {
 @media screen and (min-width: 992px) {
     #copy {
         text-align: right;
+        padding-right: 5%;
     }
 
     /* Forside start */
@@ -1345,7 +1355,6 @@ footer {
 
     .design-order {
     order: -1;
-    justify-content: right;
     width: 50%;
 
 }
@@ -1390,7 +1399,7 @@ footer {
  /* Knapper til mærker start - tablet */
 
  .produktknap{
-    max-width: 350px;
+    max-width: 316px;
 }
 
 
