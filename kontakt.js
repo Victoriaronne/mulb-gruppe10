@@ -27,7 +27,7 @@ function sendEmail() { //Laver funkton der hedder sent email
         name.value = null; //for at slette de som tidligere har skrevet
         email.value = null;
         message.value = null;
-    } else {U
+    } else {
         infoMessage.textContent = 'Udfyld venligst alle felter'; //sætter bare tekst indholdet for vore html tekst indhold 
     }   
 }
